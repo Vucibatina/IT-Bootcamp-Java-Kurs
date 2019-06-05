@@ -1,0 +1,34 @@
+Primer 1: Ispisati brojeve od jedan do deset koristeci while i for petlju.
+
+Primer 2: Sve dok korisnik ne unese negativan broj za ukupan broj ocena raditi sledece: 
+		  Racunati prosek, ukoliko broj moze biti ocena. Ako broj ne moze biti ocenena, samo
+		  je preskociti i nastaviti dalju obradu.
+		  Prikazati najbolju ocenu.
+		  Pronaci i prikazati dve najbolje ocene.
+		  
+Primer 3: U nekoj radnji, svaka peta musterija dobija 10% popusta na kupovinu. Unose se iznosi racuna, a
+		  ispis treba da bude oblika: "Vas racun je: " i iznos uz uracunat popust po potrebi. 
+		  Modifikacija: svaka peta koja je pazarila u iznosu preko 2000 dinara.
+		  
+		  
+Primer 4:  Napisati Java program koji iscrtava na standardnom izlazu 'dijamant' strukuturu kao sa slike.
+	   Test Data
+	   Ulaz broj redova (pola dijamanta) : 7 
+       Ocekivani izlaz :
+
+		                                                                                 
+		      *                                                                          
+		     ***                                                                         
+		    *****                                                                        
+		   *******                                                                       
+		  *********                                                                      
+		 ***********                                                                     
+		*************                                                                    
+		 ***********                                                                     
+		  *********                                                                      
+		   *******                                                                       
+		    *****                                                                        
+		     ***                                                                         
+		      *
+
+		
