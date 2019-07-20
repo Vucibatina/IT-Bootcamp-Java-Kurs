@@ -51,7 +51,7 @@ casting
 
 
 ## Nedelja 8 
-###Data Strukture
+### Data Strukture
 Hashmaps, Hashtables
 
 Array Lists vs arrays
