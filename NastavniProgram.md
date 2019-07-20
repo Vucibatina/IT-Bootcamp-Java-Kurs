@@ -2,8 +2,11 @@
 
 ## Nedelja 1
 IDE Setup
+
 if, switch
+
 for, while 
+
 break, continue
 
 ## Nedelja 2
