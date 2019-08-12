@@ -12,45 +12,45 @@ break, continue
 ## Nedelja 2
 funkcije, data tipovi
 
-pass by reference, pass by value
+debugger
 
-arrays
+## Nedelja 3
+
+nizovi
+
+pass by reference, pass by value
 
 git
 
-## Nedelja 3
+debugger 
+
 Stringovi 
 
 sve funkcije i vezbe oko stringova
 
-debugger 
-
-
 ## Nedelja 4
-Json - 1 dan
 
-SQL - 3 dana
+easy leetcode.com problemi - dva dana
 
-
-## Nedelja 5
-Projekat SQL 
-
-easy leetcode.com problemi 
-
-
-## Nedelja 6
 Objektno programiranje
 
 Klase i Objekti - samo bazicne klase
 
+## Nedelja 5
+
 static 
 
-
-## Nedelja 7
 Inheritance
 
 casting
 
+## Nedelja 6
+
+SQL
+
+## Nedelja 7
+
+Projekat SQL 
 
 ## Nedelja 8 
 ### Data Strukture
@@ -62,6 +62,8 @@ Linked list (opcionalno)
 
 ## Nedelja 9
 Rad sa tekstualnim fajlama
+
+Json
 
 ## Nedelja 10
 
