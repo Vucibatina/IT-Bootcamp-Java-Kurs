@@ -1,0 +1,99 @@
+Test Klase
+
+Napisati na jeziku Java sledece klase. Klase opremiti onim konstruktorima i get/set metodama koje su potrebne za bezbedno koriscenje klasa!
+
+Klasa PonudjeniOdgovor
+----------------------------------------------
+Sastoji se od
+	Teksta odgovora(String), koji se zadaje pri stvaranju, podrazumevano je "".
+	Informacije da li je odgovor tacan.
+
+Svi podaci se mogu dohvatiti, a informacija o tacnosti se moze postaviti.
+
+Odgovor moze da se ispise na glavnom izlazu(metoda public String toString()) u obliku: 
+	Tekst
+
+
+
+Klasa Pitanje
+----------------------------------------------
+Sastoji se od 
+	Tekst pitanja(string)
+	Broj poena koje pitanje nosi
+	Niz ponudjenih odgovora - podrazumevano duzine 5
+
+Stvara se bez ponudjenih odgovora sa tekstom i brojem poena koje nosi, nakon cega se ponudjeni odgovori dodaju pojednicno metodom 
+	public void dodajOdgovor(PonudjeniOdgovor po) 
+Ako u nizu ponudjenih odgovora nema dovoljno mesta, prosiriti niz na duplu duzinu.
+Prilikom dodavanja novog ponudjenog odgovora koji je oznacen kao tacan, potrebno je proveriti da li medju postojecim odgovorima posotji vec neki koji je oznacen kao tacan, ako postoji onda ispisati na standardnom izlazu informaciju da se dogodila greska i nastaviti sa izvrsavanjem programa dalje(to pitanje se naravno ne unosi u niz ponudjenih odgovora).
+
+Mogu da se dohvate tekst pitanja i broj poena koje pitanje nosi.
+Moze da se dohvati odgovor sa zadatim rednim brojem(pozicija u nizu = redni broj pitanja - 1).
+
+Moze da se odgovori na pitanje metodom. Potpis te metode treba biti
+	public int odgovoriNaPitanje(int redBr)
+Metoda kao parametar prima redni broj ponudjenog odgovora u nizu ponudjenih odgovora(pozicija u nizu = redni broj pitanja - 1), a vraca 0 ako je taj odgovor netacan ili broj poena koje to pitanje nosi ako je odgovor tacan. Takodje vraca 0 ako ponudjeni odgovor ne postoji(npr ako korisnik unese da je redBr negativno ili vece duzine niza)
+
+Pitanje moze da se ispise na glavnom izlazu(metoda public String toString()) u formatu:
+	Tekst pitanja(Broj Poena koje pitanje nosi)
+		0. Ponedjeni odgovor
+		1. Ponudjeni odgovor
+		2. Ponudjeni odgovor
+		.......
+
+
+
+
+
+Klasa Test
+----------------------------------------------
+Sastoji se od 
+	Naziv testa - String
+	Niza pitanja - podrazumevano duzine 5
+	ukupanBrojPoenaOstvarenNaTestu
+	ukupanBrojPoenaKojiNosiTest
+	brPitanja - trenutni broj pitanja u nizu
+	javnu konstantu procenatPotrebanZaPolaganje = 0.5
+
+
+Stvara se bez pitanja sa zadatim nazivom, nakon cega se metodom public void dodajPitanje(Pitanje p) mogu dodavati pitanja. 
+Ako u nizu pitanja nema dovoljno mesta da se ubaci jos jedno pitanje, prosiriti niz na duplu duzinu(NIJE OBAVEZNO). 
+
+Moze da se dohvati pitanje se zadatim rednim brojem(pozicija u nizu = redni broj pitanja - 1).
+Moze da se dohvati naziv testa.
+Moze da se dohvati ukupan broj poena ostvaren na testu.
+Moze da se dohvati ukupan broj poena koji nosi test
+Moze da se dohvati koliko trenutno pitanja postoji na testu.
+
+Moze da se odgovori na odredjeno pitanje na testu. Potpis metode je 
+	public void odgovoriNaPitanje(int redBrPitanja, int redBrOdgovora);
+pozicija u nizu = redni broj pitanja - 1
+
+Moze da se na glavnom izlazu ispise test u obliku (metoda public String toString()):
+	Naziv testa:
+	1. Tekst pitanja(Broj Poena koje pitanje nosi)
+		0. Ponedjeni odgovor
+		1. Ponudjeni odgovor
+		2. Ponudjeni odgovor
+		.......
+	2. Tekst pitanja(Broj Poena koje pitanje nosi)
+		0. Ponedjeni odgovor
+		1. Ponudjeni odgovor
+		2. Ponudjeni odgovor
+		.......
+	.......
+
+
+
+-----------------------------------------------------------------------------------
+VAZNO: Mozete dodavati dodatna polja i metode u klase ako smatrate da je to neophodno. Ali morate da imate validan razlog zasto vam je neophodno da dodate to polje. Dodavanje nepotrebnih polja i metoda nosi negativne poene.
+Neka neophodna polja su namerno izostavljena!
+
+Obratite paznju kada pristupate nizu da uvek morate da proverite da li index pomocu koga pristupate elementu niza validan(ne sme biti negativan ili vaci od duzine niza).
+
+Za testiranje vaseg programa koristite klasu Main.java.
+Nije dozvoljeno nikakvo menjanje koda unutar ove klase.
+
+Srecan rad!
+
+
